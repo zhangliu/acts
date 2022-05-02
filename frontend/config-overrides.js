@@ -14,7 +14,7 @@ module.exports = override(
       },
     })
     
-    // config.output.publicPath = 'build/'
+    config.output.publicPath = 'mas/'
     return config
   }
 )
