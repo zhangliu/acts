@@ -8,7 +8,7 @@ export default (props) => {
   return (
     <div>
       <div className='bgc:efefef'>
-        <NavBar onBack={() => navigate(-1)}>马鞍山月老</NavBar>
+        <NavBar onBack={() => navigate(-1)}>马鞍山单身</NavBar>
       </div>
       {/* <Tabs>
         <Tabs.Tab title='征友' key='personInfo'>

@@ -1,0 +1,19 @@
+{
+  "name": "acts",
+  "version": "1.0.0",
+  "description": "this is activity platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangliu/acts.git"
+  },
+  "author": "zhangliu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhangliu/acts/issues"
+  },
+  "homepage": "https://github.com/zhangliu/acts#readme"
+}
