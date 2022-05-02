@@ -77,7 +77,7 @@ export default [
     birthday: '1991',
     property: '目前南京工作 15-20W',
     edu: '',
-    work: '',
+    work: '建筑行业',
     detail: `91男
     172 65
     房车有 在马鞍山 无贷款
