@@ -13,6 +13,8 @@ module.exports = override(
         ],
       },
     })
+    
+    // config.output.publicPath = 'build/'
     return config
   }
 )
