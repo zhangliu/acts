@@ -14,7 +14,7 @@ module.exports = override(
       },
     })
     
-    config.output.publicPath = '/mas/'
+    config.output.publicPath = 'https://zhangliu.github.io/activity-apply/mas/'
     return config
   }
 )
