@@ -68,4 +68,25 @@ export default [
     贷款房全款车
     父母马钢退休`,
   },
-]
+  {
+    id: 5,
+    nickName: '陈大器',
+    title: '91男成大器',
+    publicTime: '2022-05-02 19:54:00',
+    sex: 'boy',
+    birthday: '1991',
+    property: '目前南京工作 15-20W',
+    edu: '',
+    work: '',
+    detail: `91男
+    172 65
+    房车有 在马鞍山 无贷款
+    目前南京工作 15-20W
+    有个姐姐 父母退休 无负担`,
+  },
+].sort((a, b) => {
+  const time1 = new Date(a.publicTime)
+  const time2 = new Date(b.publicTime)
+
+  return time2.getTime() - time1.getTime()
+})
