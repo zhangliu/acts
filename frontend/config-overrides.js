@@ -14,7 +14,9 @@ module.exports = override(
       },
     })
     
-    config.output.publicPath = 'https://zhangliu.github.io/acts/mas/'
+    if (process.env.NODE_ENV !== 'development') {
+      config.output.publicPath = 'https://zhangliu.github.io/acts/mas/'
+    }
     return config
   }
 )
