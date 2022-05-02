@@ -24,7 +24,7 @@ export default (props) => {
           onBack={() => navigate(-1)}
           right={<Button onClick={showModal} color='primary' size='mini'>发布信息</Button>}
         >
-            马鞍山单身
+            马鞍山单身群
         </NavBar>
       </div>
       {/* <Tabs>
