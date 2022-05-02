@@ -1,5 +1,6 @@
 import { Button, NavBar, Modal } from 'antd-mobile'
 import { useNavigate } from 'react-router-dom'
+import { TeamOutline } from 'antd-mobile-icons'
 import qrCode from './assert/imgs/qrCode.jpeg'
 
 // eslint-disable-next-line import/no-anonymous-default-export
@@ -22,6 +23,7 @@ export default (props) => {
       <div className='bgc:efefef'>
         <NavBar
           onBack={() => navigate(-1)}
+          left={<TeamOutline onClick={() => navigate('/person')} fontSize={20} />}
           right={<Button onClick={showModal} color='primary' size='mini'>发布信息</Button>}
         >
             马鞍山单身群

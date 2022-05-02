@@ -7,7 +7,6 @@ import qrCode from '../../assert/imgs/qrCode.jpeg'
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default () => {
-  // const person 
   const params = useParams()
   const person = persons.find(p => p.id === +params.id)
   if (!person) throw new Error('can not find person!')
