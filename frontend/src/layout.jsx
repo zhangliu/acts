@@ -23,10 +23,9 @@ export default (props) => {
       <div className='bgc:efefef'>
         <NavBar
           onBack={() => navigate(-1)}
-          left={<TeamOutline onClick={() => navigate('/person')} fontSize={20} />}
           right={<Button onClick={showModal} color='primary' size='mini'>发布信息</Button>}
         >
-            马鞍山单身群
+            <div onClick={() => navigate('/person')}>马鞍山单身群</div>
         </NavBar>
       </div>
       {/* <Tabs>
