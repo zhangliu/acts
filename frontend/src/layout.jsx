@@ -1,14 +1,31 @@
-import { NavBar, Tabs } from 'antd-mobile'
+import { Button, NavBar, Modal } from 'antd-mobile'
 import { useNavigate } from 'react-router-dom'
+import qrCode from './assert/imgs/qrCode.jpeg'
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default (props) => {
   const navigate = useNavigate()
 
+  const showModal = () => {
+    Modal.alert({
+      content: (
+        <div>
+          <div>请在群里 @群主 您的信息：</div>
+          <img className="w:100%" src={qrCode} />
+        </div>
+      )
+    })
+  }
+
   return (
     <div>
       <div className='bgc:efefef'>
-        <NavBar onBack={() => navigate(-1)}>马鞍山单身</NavBar>
+        <NavBar
+          onBack={() => navigate(-1)}
+          right={<Button onClick={showModal} color='primary' size='mini'>发布信息</Button>}
+        >
+            马鞍山单身
+        </NavBar>
       </div>
       {/* <Tabs>
         <Tabs.Tab title='征友' key='personInfo'>

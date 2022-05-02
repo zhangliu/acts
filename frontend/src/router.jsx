@@ -10,7 +10,7 @@ export default (
     <Routes>
       <Route path="/" element={<Person />} />
       <Route path="/person" element={<Person />} />
-      <Route path="/person/detail" element={<PersonDetail />} />
+      <Route path="/person/detail/:id" element={<PersonDetail />} />
       <Route path="about" element={<About />} />
     </Routes>
   </Layout>
