@@ -1,8 +1,9 @@
-import { List } from 'antd-mobile'
+import { List, Tag } from 'antd-mobile'
 import { UserOutline } from 'antd-mobile-icons'
 import { useNavigate } from 'react-router-dom'
 import persons from '../../personData'
 import DiffTime from './diffTime'
+import InfoTag from './infoTag'
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default () => {
@@ -18,7 +19,10 @@ export default () => {
         description={renderDesc(person)}
         // extra={<Button size='mini' color='primary'>报名</Button>}
       >
-        <div>{person.title}</div>
+        <div className='d:f ai:c'>
+          <InfoTag person={person} />
+          <div className='of:h ws:n tof:e maw:320'>{person.title}</div>
+        </div>
       </List.Item>
     )
   }

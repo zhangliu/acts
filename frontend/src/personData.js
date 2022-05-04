@@ -15,7 +15,7 @@ export default [
   {
     id: 2,
     nickName: '冠珠～刘',
-    title: '93女一枚[捂脸]；觅研究生及以上学历，89-93男生',
+    title: '93女觅研究生及以上学历，89-93男生',
     publicTime: '2022-05-01 12:00:32',
     sex: 'girl',
     birthday: '1993',
@@ -83,6 +83,19 @@ export default [
     房车有 在马鞍山 无贷款
     目前南京工作 15-20W
     有个姐姐 父母退休 无负担`,
+  },
+  {
+    id: 6,
+    nickName: '',
+    title: '91年1.68女征男',
+    publicTime: '2022-05-04 14:35:00',
+    sex: 'girl',
+    birthday: '1991',
+    property: '',
+    edu: '大专',
+    work: '私企管理',
+    from: '恒缘婚介',
+    detail: `1991年，1.68米，大专，私企管理，父母退休，独女，寻1986～1994年，1.75米左右，大专或以上，稳定收入帅气阳光，有责任心的男士`,
   },
 ].sort((a, b) => {
   const time1 = new Date(a.publicTime)

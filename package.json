@@ -4,6 +4,7 @@
   "description": "this is activity platform",
   "main": "index.js",
   "scripts": {
+    "start": "cd ./frontend && npm start",
     "build": "cd ./frontend && npm run build && cd ..",
     "pub": "npm run build && git add . && git commit -m 'modify' && git push",
     "test": "echo \"Error: no test specified\" && exit 1"
