@@ -86,7 +86,7 @@ export default [
   },
   {
     id: 6,
-    nickName: '',
+    nickName: '婚介',
     title: '91年1.68女征男',
     publicTime: '2022-05-04 14:35:00',
     sex: 'girl',
