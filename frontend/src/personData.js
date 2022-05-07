@@ -97,6 +97,20 @@ export default [
     from: '恒缘婚介',
     detail: `1991年，1.68米，大专，私企管理，父母退休，独女，寻1986～1994年，1.75米左右，大专或以上，稳定收入帅气阳光，有责任心的男士`,
   },
+  {
+    id: 7,
+    nickName: '晴儿',
+    title: '90年女寻87到92男',
+    publicTime: '2022-05-07 21:06:00',
+    sex: 'girl',
+    birthday: '1990',
+    property: '名下一辆奔驰，两套房（一套景区房，一套镇上门面房），无负债',
+    edu: '大专',
+    work: '私企管理',
+    from: '',
+    detail: `90年，女，创业中，年收入6位数，有车和两套房，无负债，身高162，大专以上学历，商务英语专业，微胖，～～觅87到92男，要求身高177起，长相顺眼，马鞍山有房，最好是正式工，月薪 > 5k`,
+    pics: ['1.jpeg', '2.jpeg']
+  },
 ].sort((a, b) => {
   const time1 = new Date(a.publicTime)
   const time2 = new Date(b.publicTime)

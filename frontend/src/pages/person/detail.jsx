@@ -5,6 +5,8 @@ import persons from '../../personData'
 import DiffTime from './diffTime'
 import InfoTag from './infoTag'
 import qrCode from '../../assert/imgs/qrCode.jpeg'
+import img7_1 from '../../assert/imgs/person/7/1.jpeg'
+import img7_2 from '../../assert/imgs/person/7/2.jpeg'
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default () => {
@@ -14,7 +16,7 @@ export default () => {
 
   const sex = person.sex === 'boy' ? '男' : '女'
 
-  const getDesc = () => {
+  const renderDesc = () => {
     return (
       <div>
         <div>
@@ -28,6 +30,19 @@ export default () => {
         <div className='mt:20'>
           {person.detail}
         </div>
+        {renderPics()}
+      </div>
+    )
+  }
+
+  const renderPics = () => {
+    if (!person.pics) return null
+    if (person.id !== 7) return null
+
+    return (
+      <div className='pt:10'>
+        <img className='w:100% mb:20' src={img7_1} alt="" />
+        <img className='w:100%' src={img7_2} alt="" />
       </div>
     )
   }
@@ -53,7 +68,7 @@ export default () => {
   return (
     <div>
       <Card title={renderTitle()} onClick={() => {}}>
-        {getDesc()}
+        {renderDesc()}
         <div className='mt:40 d:f jc:c'>
           <Button onClick={showModal} color='primary' className='w:60%'>联系该{sex}士</Button>
         </div>

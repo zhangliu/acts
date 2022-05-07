@@ -1,5 +1,5 @@
 import { List, Tag } from 'antd-mobile'
-import { UserOutline } from 'antd-mobile-icons'
+import { UserOutline, PictureOutline } from 'antd-mobile-icons'
 import { useNavigate } from 'react-router-dom'
 import persons from '../../personData'
 import DiffTime from './diffTime'
@@ -22,6 +22,7 @@ export default () => {
         <div className='d:f ai:c'>
           <InfoTag person={person} />
           <div className='of:h ws:n tof:e maw:320'>{person.title}</div>
+          <div>{ person.pics ? '【图片】' : '' }</div>
         </div>
       </List.Item>
     )
