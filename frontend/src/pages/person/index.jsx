@@ -1,5 +1,5 @@
-import { List, Tag } from 'antd-mobile'
-import { UserOutline, PictureOutline } from 'antd-mobile-icons'
+import { List } from 'antd-mobile'
+import { UserOutline } from 'antd-mobile-icons'
 import { useNavigate } from 'react-router-dom'
 import persons from '../../personData'
 import DiffTime from './diffTime'
@@ -44,7 +44,7 @@ export default () => {
 
   return (
     <div>
-      <List header='征友列表'>
+      <List header={`共 ${persons.length} 条征友信息`}>
         {persons.map(renderPerson)}
       </List>
     </div>
