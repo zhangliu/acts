@@ -111,6 +111,19 @@ export default [
     detail: `90年，女，创业中，年收入6位数，有车和两套房，无负债，身高162，大专以上学历，商务英语专业，微胖，～～觅87到92男，要求身高177起，长相顺眼，马鞍山有房，最好是正式工，月薪 > 5k`,
     pics: ['1.jpeg', '2.jpeg']
   },
+  {
+    id: 8,
+    nickName: '马鞍山四九价代约',
+    title: '95年女，身高 165 寻88-98年男',
+    publicTime: '2022-05-08 11:48:00',
+    sex: 'girl',
+    birthday: '1995',
+    property: '有车一辆',
+    edu: '',
+    work: '老师',
+    from: '',
+    detail: `性别：女； 年龄：1995年； 婚否：未婚； 身高：165cm； 体重：48kg； 现定居：马鞍山市区； 是否有车：有车； 是否独生子：是； 职业：老师；寻1988-1998年，1.74+，未婚，大专及以上，稳定收入，阳光上进，有责任心的男士[旺柴] `,
+  },
 ].sort((a, b) => {
   const time1 = new Date(a.publicTime)
   const time2 = new Date(b.publicTime)
