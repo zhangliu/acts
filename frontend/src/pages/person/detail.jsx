@@ -7,6 +7,7 @@ import InfoTag from './infoTag'
 import qrCode from '../../assert/imgs/qrCode.jpeg'
 import img7_1 from '../../assert/imgs/person/7/1.jpeg'
 import img7_2 from '../../assert/imgs/person/7/2.jpeg'
+import img8_1 from '../../assert/imgs/person/8/1.jpeg'
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default () => {
@@ -37,14 +38,24 @@ export default () => {
 
   const renderPics = () => {
     if (!person.pics) return null
-    if (person.id !== 7) return null
+    if (![7, 8].includes(person.id)) return null
 
-    return (
-      <div className='pt:10'>
-        <img className='w:100% mb:20' src={img7_1} alt="" />
-        <img className='w:100%' src={img7_2} alt="" />
-      </div>
-    )
+    if (person.id === 7) {
+      return (
+        <div className='pt:10'>
+          <img className='w:100% mb:20' src={img7_1} alt="" />
+          <img className='w:100%' src={img7_2} alt="" />
+        </div>
+      )
+    }
+    if (person.id === 8) {
+      return (
+        <div className='pt:10'>
+          <img className='w:100% mb:20' src={img8_1} alt="" />
+        </div>
+      )
+    }
+    
   }
 
   const showModal = () => {

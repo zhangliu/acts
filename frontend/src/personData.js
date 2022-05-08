@@ -124,6 +124,20 @@ export default [
     from: '',
     detail: `性别：女； 年龄：1995年； 婚否：未婚； 身高：165cm； 体重：48kg； 现定居：马鞍山市区； 是否有车：有车； 是否独生子：是； 职业：老师；寻1988-1998年，1.74+，未婚，大专及以上，稳定收入，阳光上进，有责任心的男士[旺柴] `,
   },
+  {
+    id: 8,
+    nickName: '马鞍山-大柳树',
+    title: '89年男，身高 172',
+    publicTime: '2022-05-08 22:26:00',
+    sex: 'boy',
+    birthday: '1989',
+    property: '',
+    edu: '',
+    work: '',
+    from: '',
+    detail: `89年男；身高：172； 有点瘦，微秃[哭]，211本科毕业，有房无车，目前就职于南京一家互联网公司，软件开发，薪水尚可，喜欢吃辣，爱打羽毛球等`,
+    pics: []
+  },
 ].sort((a, b) => {
   const time1 = new Date(a.publicTime)
   const time2 = new Date(b.publicTime)
