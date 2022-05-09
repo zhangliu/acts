@@ -11,6 +11,10 @@ export default () => {
   const goDetail = (id) => navigate(`/person/detail/${id}`)
 
   const renderPerson = (person, key) => {
+    const renderTitle = () => {
+      if (key > 2) return <div className='of:h ws:n tof:e maw:320'>{person.title}</div>
+      return <div className='of:h ws:n tof:e maw:320 c:ff3333'>{person.title}</div>
+    }
     return (
       <List.Item
         key={key}
@@ -21,7 +25,7 @@ export default () => {
       >
         <div className='d:f ai:c'>
           <InfoTag person={person} />
-          <div className='of:h ws:n tof:e maw:320'>{person.title}</div>
+          {renderTitle()}
           <div>{ person.pics ? '【图片】' : '' }</div>
         </div>
       </List.Item>
