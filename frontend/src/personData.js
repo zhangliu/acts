@@ -136,7 +136,6 @@ export default [
     work: '',
     from: '',
     detail: `89年男；身高：172； 有点瘦，微秃[哭]，211本科毕业，有房无车，目前就职于南京一家互联网公司，软件开发，薪水尚可，喜欢吃辣，爱打羽毛球等`,
-    pics: []
   },
   {
     id: 10,
@@ -150,7 +149,6 @@ export default [
     work: '',
     from: '',
     detail: `04年高187男，中餐大厨`,
-    pics: []
   },
   {
     id: 11,
@@ -164,7 +162,6 @@ export default [
     work: '',
     from: '',
     detail: `女生，91年的高167本科，寻1987～1991年，1.75米以上，本科，起码大专以上，最好独子稳定收入帅气阳光，有责任心的男士。`,
-    pics: []
   }
 ].sort((a, b) => {
   const time1 = new Date(a.publicTime)
