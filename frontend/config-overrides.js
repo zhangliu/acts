@@ -15,7 +15,7 @@ module.exports = override(
     })
     
     if (process.env.NODE_ENV !== 'development') {
-      config.output.publicPath = 'https://zhangliu.github.io/acts/mas/'
+      config.output.publicPath = 'https://www.danshen-helper.com/mas/'
     }
     return config
   }
