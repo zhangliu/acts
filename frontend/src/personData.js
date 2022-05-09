@@ -138,6 +138,34 @@ export default [
     detail: `89年男；身高：172； 有点瘦，微秃[哭]，211本科毕业，有房无车，目前就职于南京一家互联网公司，软件开发，薪水尚可，喜欢吃辣，爱打羽毛球等`,
     pics: []
   },
+  {
+    id: 10,
+    nickName: '羡鱼',
+    title: '04年高187男，中餐大厨',
+    publicTime: '2022-05-09 21:00:00',
+    sex: 'boy',
+    birthday: '2004',
+    property: '',
+    edu: '',
+    work: '',
+    from: '',
+    detail: `04年高187男，中餐大厨`,
+    pics: []
+  },
+  // {
+  //   id: 10,
+  //   nickName: '马鞍山-大柳树',
+  //   title: '91年女高167本科，寻1987～1991年，本科男',
+  //   publicTime: '2022-05-09 21:00:00',
+  //   sex: 'girl',
+  //   birthday: '1991',
+  //   property: '',
+  //   edu: '',
+  //   work: '',
+  //   from: '',
+  //   detail: `女生，91年的高167本科，寻1987～1991年，1.75米以上，本科，起码大专以上，最好独子稳定收入帅气阳光，有责任心的男士。`,
+  //   pics: []
+  // }
 ].sort((a, b) => {
   const time1 = new Date(a.publicTime)
   const time2 = new Date(b.publicTime)
