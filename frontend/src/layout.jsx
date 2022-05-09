@@ -10,7 +10,7 @@ export default (props) => {
     Modal.alert({
       content: (
         <div>
-          <div>请加 zhangliu2 进群登记您的信息：</div>
+          <div>请加微信：zhangliu2 进群登记您的信息：</div>
           {/* <img className="w:100%" src={qrCode} /> */}
         </div>
       )
