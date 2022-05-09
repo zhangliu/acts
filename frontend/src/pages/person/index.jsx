@@ -12,8 +12,8 @@ export default () => {
 
   const renderPerson = (person, key) => {
     const renderTitle = () => {
-      if (key > 2) return <div className='of:h ws:n tof:e maw:300'>{person.title}</div>
-      return <div className='of:h ws:n tof:e maw:300 c:ff3333'>{person.title}</div>
+      if (key > 2) return <div className='of:h ws:n tof:e maw:280'>{person.title}</div>
+      return <div className='of:h ws:n tof:e maw:280 c:ff3333'>{person.title}</div>
     }
     return (
       <List.Item
