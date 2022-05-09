@@ -152,7 +152,7 @@ export default [
   },
   {
     id: 11,
-    nickName: 'Yuan ma',
+    nickName: '青草',
     title: '91年女高167本科，寻1987～1991年，本科男',
     publicTime: '2022-05-09 21:00:00',
     sex: 'girl',
