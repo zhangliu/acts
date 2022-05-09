@@ -9,7 +9,7 @@ export default (props) => {
   const onChange = (key) => navigate(`/${key}`)
   return (
     <Tabs activeKey={activeKey} onChange={onChange}>
-      <Tabs.Tab title='征友信息' key='person'>
+      <Tabs.Tab title='脱单' key='person'>
         {props.children}
       </Tabs.Tab>
       <Tabs.Tab title={<div className='c:999'>节假日（建设中...)</div>} key='activity'>
