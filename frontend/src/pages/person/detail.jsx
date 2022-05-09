@@ -52,8 +52,8 @@ export default () => {
     Modal.alert({
       content: (
         <div>
-          <div>请在群里根据昵称查找该{sex}士：</div>
-          <img className='w:100%' src={qrCode} />
+          <div>请加 zhangliu2 进「马鞍山单身群」根据昵称查找该{sex}士：</div>
+          {/* <img className='w:100%' src={qrCode} /> */}
         </div>
       )
     })

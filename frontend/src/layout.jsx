@@ -1,6 +1,6 @@
 import { Button, NavBar, Modal } from 'antd-mobile'
 import { useNavigate } from 'react-router-dom'
-import qrCode from './assert/imgs/qrCode.jpeg'
+// import qrCode from './assert/imgs/qrCode.jpeg'
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default (props) => {
@@ -10,8 +10,8 @@ export default (props) => {
     Modal.alert({
       content: (
         <div>
-          <div>请在群里 @群主 您的信息：</div>
-          <img className="w:100%" src={qrCode} />
+          <div>请加 zhangliu2 进群登记您的信息：</div>
+          {/* <img className="w:100%" src={qrCode} /> */}
         </div>
       )
     })
