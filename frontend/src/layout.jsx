@@ -1,6 +1,7 @@
 import { Button, NavBar, Modal } from 'antd-mobile'
 import { useNavigate } from 'react-router-dom'
-// import qrCode from './assert/imgs/qrCode.jpeg'
+// import singlePostModal from './components/singlePostModal'
+import qrCode from './assert/imgs/qrCode.jpeg'
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default (props) => {
@@ -10,7 +11,8 @@ export default (props) => {
     Modal.alert({
       content: (
         <div>
-          <div>请加微信：zhangliu2 进群登记您的信息：</div>
+          <div>请加微信：zhangliu2 进「马鞍山单身群」发布您的信息：</div>
+          {/* <div>请进群找群主发布您的信息：</div> */}
           {/* <img className="w:100%" src={qrCode} /> */}
         </div>
       )

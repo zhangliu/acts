@@ -12,7 +12,7 @@ export default (props) => {
       <Tabs.Tab title='脱单' key='person'>
         {props.children}
       </Tabs.Tab>
-      <Tabs.Tab title={<div className='c:999'>节假日（建设中...)</div>} key='activity'>
+      <Tabs.Tab title={<div className='c:999'>活动（建设中）</div>} key='activity'>
         <div>建设中...</div>
       </Tabs.Tab>
     </Tabs>
